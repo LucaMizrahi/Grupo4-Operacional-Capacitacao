@@ -16,8 +16,10 @@ export default function Home() {
           <div className={styles.logochefe}>
           <Image src="/chef.png" alt="Chef Logo" width={120} height={120} />
           </div>
+          <div></div>
+          <div></div>
           <div className={styles.figurabarra1}>
-            <Image src="/telemarketing.png" alt="Suporte" width={70} height={70} />
+            <Image src="/telemarketing.png" alt="Suporte" width={50} height={50} />
           </div>
           <div className={styles.quemsomos}>
             Quem Somos
@@ -26,7 +28,7 @@ export default function Home() {
             Seja chefe
           </div>
           <div className={styles.figurabarra2}>
-            <Image src="/perfil.png" alt="Perfil Logo" width={70} height={70} />
+            <Image src="/perfil.png" alt="Perfil Logo" width={45} height={45} />
           </div> 
         </h1>
         
@@ -39,25 +41,25 @@ export default function Home() {
           <div className={styles.filtroendereço}>
             <div className={styles.filtrotexto}>
             Endereço
-            <p>Onde vai ser o jantar?</p>
+            <p>Rua Quata 200</p>
             </div>
           </div>
           <div className={styles.filtroculinaria}>
             < div className={styles.filtrotexto}>
             Culinária
-            <p>Qual o tipo de comida?</p>
+            <p>Italiana</p>
             </div>
           </div>
           <div className={styles.filtrodata}>
             <div className={styles.filtrotexto}>
             Data
-            <p>Quando?</p>
+            <p>4/02/22</p>
             </div>
           </div>
           <div className={styles.filtroqnt}>
             <div className={styles.filtrotexto}>
             Quantidade
-            <p>Quantas pessoas?</p>
+            <p>70</p>
             </div>
           </div>
           <div className={styles.filtrobotao}>
