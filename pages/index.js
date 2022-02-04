@@ -59,11 +59,13 @@ export default function Home() {
           <div className={styles.filtroqnt}>
             <div className={styles.filtrotexto}>
             Quantidade
-            <p>70</p>
+            <p>15 a 20</p>
             </div>
           </div>
           <div className={styles.filtrobotao}>
-            <Image src="/Lupinha.png" alt="Lupinha" width={50} height={50} />
+            <a href="http://localhost:3000/listachef">
+            < Image src="/Lupinha.png" alt="Lupinha" width={50} height={50}></Image>
+            </a>
           </div>
         </div>
         <div class={styles.wrapper}>
@@ -71,7 +73,7 @@ export default function Home() {
             <Image src="/Foto 1.png" alt="Foto 1" width={1010} height={430} /> 
           </div>
           <div class={styles.box2}>
-              <Image src="/Foto 3.png" alt="Foto 3" width={1006} height={322} />
+            <Image src="/Foto 3.png" alt="Foto 3" width={1006} height={322} />
           </div>
           <div class={styles.box3}>
             <Image src="/Foto 2.png" alt="Foto 2" width={500} height={754} />
