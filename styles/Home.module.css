@@ -1,35 +1,92 @@
 .container {
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-auto-rows: 100px;
 }
 
 .container2 {
-  padding: 0;
+  padding-bottom: 10%;
   display: block;
+  padding-left: 10%;
+  margin-top: 5%;
 
 }
 
 .container3 {
   padding: 0;
   display: grid;
+  padding-left: 10%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 80px;
+  text-align: center;
+  grid-template-areas:
+  "ed cl dt qt bt ."
 }
 
-.container4 {
- display: block;
+.filtroendereço{
+  grid-area: ed;
+  background: black;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border-radius:40px 0px 0px 40px;
+
 }
 
-.container5 {
-  display: block;
+.filtroculinaria{
+  grid-area: cl;
+  background: black;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
 }
 
-.container6 {
-  display: block;
+.filtrodata{
+  grid-area: dt;
+  background: black;
+  grid-column-start: 3;
+  grid-column-end: 4;
+
 }
 
-.container7 {
-  display: block;
+.filtroqnt{
+  grid-area: qt;
+  background: black;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  
+
+}
+
+.filtrobotao{
+  grid-area: bt;
+  background: black;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  padding-top: 6%;
+  border-radius:0px 40px 40px 0px;
+
+}
+
+.filtrotexto{
+  margin: 0;
+  margin-top: 5%;
+  height: 0;
+  font-size:calc(0.5rem + 1vw);
+  font-weight: bold;
+  text-align: center;
+  color:white;
+  align-self: center;
+
+}
+
+.filtrotexto p{
+  margin: 0;
+  margin-top: 5%;
+  height: 0;
+  font-size:calc(0.2rem + 1vw);
+  text-align: center;
+  color:white;
+  align-self: center;
+
 }
 
 
@@ -66,7 +123,7 @@
   margin: 0;
   margin-left: 0.8rem;
   height: 0;
-  font-size:calc(1.2rem + 2vw);
+  font-size:calc(0.8rem + 2vw);
   font-weight: bold;
   text-align: left;
 }
@@ -91,16 +148,16 @@
 
 .logochefe {
   height: 0;
-  margin-left: 5rem;
+  margin-left: 5%;
   margin-top: 5%;
 }
 
 .quemsomos {
   margin: 0;
-  margin-bottom: 35%;
-  margin-left: 15%;
+  margin-bottom: 25%;
+  margin-left: 50%;
   height: 0;
-  font-size:calc(1rem + 1vw);
+  font-size:calc(0.5rem + 1vw);
   font-weight: bold;
   text-align: center;
   color:#eaeaea;
@@ -111,10 +168,10 @@
 
 .sejachefe {
   margin: 0;
-  margin-bottom: 35%;
-  margin-right: 5%;
+  margin-bottom: 25%;
+  margin-right: 10%;
   height: 0;
-  font-size:calc(1rem + 1vw);
+  font-size:calc(0.5rem + 1vw);
   font-weight: bold;
   text-align: center;
   color:#eaeaea;
@@ -122,16 +179,26 @@
   align-self: center;
 }
 
-.figurabarra {
+.figurabarra1 {
   position: relative;
   align-self: center;
+  margin-left: 20%;
 
+}
+
+.figurabarra2 {
+  position: relative;
+  align-self: center;
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 188px;
+  grid-auto-rows: 168px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom:10%;
 }
 
 .box1 {
@@ -148,7 +215,6 @@
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 5;
-  margin-top: 0;
 }
 
 .box3 {
