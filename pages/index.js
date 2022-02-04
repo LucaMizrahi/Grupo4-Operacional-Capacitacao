@@ -13,45 +13,52 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-        <span className={styles.logo2}>
-        <Image src="/chef.png" alt="Chef Logo" width={100} height={100} />
-        </span>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <div className={styles.logochefe}>
+          <Image src="/chef.png" alt="Chef Logo" width={120} height={120} />
+          </div>
+          <div className={styles.container4}>
+            <div className={styles.figurabarra}>
+              <Image src="/telemarketing.png" alt="Suporte" width={70} height={70} />
+            </div>
+          </div>
+          <div className={styles.container5}>
+            <div className={styles.quemsomos}>
+            Quem Somos
+            </div>
+          </div>
+          <div className={styles.container6}>
+            <div className={styles.sejachefe}>
+              Seja chefe
+            </div>
+          </div>
+          <div className={styles.container7}>
+            <div className={styles.figurabarra}>
+            <Image src="/perfil.png" alt="Perfil Logo" width={80} height={80} />
+            </div>
+          </div>
         </h1>
-
-        <h1 className={styles.logo2}>
-        <Image src="/chef.png" alt="Chef Logo" width={100} height={100} />
-        </h1>
-
-        <p className={styles.description}>
-          Ache o chef que mais combina com você!
-        </p>
-
-        <h1 classname={styles.picture1}>
-          <Image src="/Foto 1.png" alt="Foto 1" width={1010} height={430} /> 
-        </h1>
-
-        <h1 classname={styles.picture3}>
-          <Image src="/Foto 3.png" alt="Foto 3" width={1006} height={322} /><Image src="/Foto 2.png" alt="Foto 2" width={500} height={754} /> 
-
-        </h1>
+        <div class={styles.container2}>
+          <p className={styles.description}>
+            Ache o chef que mais combina com você!
+          </p>
+        </div>
+        <div class={styles.container3}>
+          oi
+          <div class={styles.container2}>
+        </div>
+          <div class={styles.wrapper}>
+            <div class={styles.box1}>
+              <Image src="/Foto 1.png" alt="Foto 1" width={1010} height={430} /> 
+            </div>
+            <div class={styles.box2}>
+                <Image src="/Foto 3.png" alt="Foto 3" width={1006} height={322} />
+            </div>
+            <div class={styles.box3}>
+              <Image src="/Foto 2.png" alt="Foto 2" width={500} height={754} />
+            </div>
+          </div>
+        </div>
       </main>
-      
-      
-
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   )
 }
